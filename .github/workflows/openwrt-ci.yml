@@ -183,19 +183,6 @@ jobs:
 
           CONFIG_PACKAGE_luci-theme-infinityfreedom=y
           EOF
-          #
-          # ? cat >> .config <<EOF ? EOF ??????????, ???????
-          # ??:
-
-          #cat >> .config <<EOF
-          #CONFIG_TARGET_IMAGES_GZIP=y
-          #CONFIG_KERNEL_BUILD_USER="OpenWrt-CI"
-          #CONFIG_KERNEL_BUILD_DOMAIN="Azure"
-          #EOF
-
-          #
-          # ===============================================================
-          # 
 
           sed -i 's/^[ \t]*//g' ./.config
           make defconfig
