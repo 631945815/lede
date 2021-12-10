@@ -106,19 +106,19 @@ jobs:
 
           # CONFIG_PACKAGE_luci-app-adbyby-plus is not set
 
-          #CONFIG_PACKAGE_luci-app-adguardhome=y
+          #CONFIG_PACKAGE_luci-app-adguardhome is not set
 
           CONFIG_PACKAGE_luci-app-easymesh=y
 
-          #CONFIG_PACKAGE_luci-app-frpc=y
-          #CONFIG_PACKAGE_luci-app-frps=y
+          #CONFIG_PACKAGE_luci-app-frpc is not set
+          #CONFIG_PACKAGE_luci-app-frps is not set
 
           CONFIG_PACKAGE_luci-app-guest-wifi=y
 
 
-          #CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
+          #CONFIG_PACKAGE_luci-app-aliyundrive-webdav is not set
 
-          #CONFIG_PACKAGE_luci-app-jd-dailybonus=y
+          #CONFIG_PACKAGE_luci-app-jd-dailybonus is not set
 
           #CONFIG_PACKAGE_luci-app-mwan3=y
           #CONFIG_PACKAGE_luci-app-mwan3helper=y
@@ -135,10 +135,10 @@ jobs:
 
           #CONFIG_PACKAGE_luci-app-openclash=y
 
-          #CONFIG_PACKAGE_luci-app-passwall=y
-          #CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Server=y
-          # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray is not set
-          # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin is not set
+          CONFIG_PACKAGE_luci-app-passwall=y
+          CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Server=y
+          CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray is not set
+          CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin is not set
 
           CONFIG_PACKAGE_luci-app-pppoe-relay=y
 
